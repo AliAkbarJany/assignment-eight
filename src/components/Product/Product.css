@@ -1,0 +1,18 @@
+
+.desktop{
+    width: 300px;
+    height: 450px;
+    border: 2px solid lightslategray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.image{
+    width: 280px;
+    height: 280px;
+    border-radius: 4px;
+}
+.btn-container{
+    margin-left: 80px;
+}
+

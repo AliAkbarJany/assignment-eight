@@ -1,0 +1,25 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+    
+}
+.desktops-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width:370px) {
+    .desktops-container{
+        grid-template-columns: 1fr;
+    }
+    
+}
+.cart-container{
+    width: 350px;
+    height: 500px;
+    border: 2px solid lightslategray;
+    
+    border-radius: 10px;
+    padding: 8px;
+    position: static;
+}
